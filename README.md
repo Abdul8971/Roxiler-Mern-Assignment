@@ -39,8 +39,10 @@ Set Up Environment Variables Create a .env file in the project folder with these
 PORT=8080
 MONGO_URI=your_mongodb_connection_URL
 
-Start the Backend server: npm run index.js
+Start the Backend server: cd backend 
+npm run index.js
 
-Start the Frontend Go to the client folder and start the frontend server: cd frontend npm run dev
+Start the Frontend Go to the client folder and start the frontend server: cd frontend 
+npm run dev
 
 
