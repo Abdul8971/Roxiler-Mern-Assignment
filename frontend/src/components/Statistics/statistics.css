@@ -1,0 +1,30 @@
+.statistics-container {
+    width: 300px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 15px;
+    /* margin: 20px; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 400px;
+  }
+  
+  .statistics-innerContainer {
+    text-align: center;
+  }
+  
+  .statistics-innerContainer h3 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .statistics-innerContainer p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .statistics-innerContainer p:first-child {
+    margin-top: 0;
+  }
+  
