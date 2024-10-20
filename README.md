@@ -1,7 +1,7 @@
 
-MERN Stack Coding Challenge
+MERN Stack Roxiler Coding Challenge
 
-This project is a MERN stack application that works with data from a third-party API. It includes features for listing transactions, showing statistics, and displaying charts using the data.
+This project is a full stack MERN application that interacts with data from a third-party API. It includes features for listing transactions,displaying charts , and showing statistics using the data.
 
 Features
 
@@ -30,32 +30,17 @@ How to Run the Project
 
 Install Dependencies First, clone the project and install the required packages.
 
-git clone https://github.com/Rajeshwari159/Roxiler-assignment.git cd mern-stack-coding-challenge npm install
+git clone https://github.com/Abdul8971/Roxiler-Mern-Assignment.git
+cd Roxiler-Mern-Assignment npm install
 
 For the frontend, go to the client folder and install the packages: cd frontend npm install
 
-Set Up Environment Variables Create a .env file in the project folder with these variable: PORT=8000 MONGO_URI=your_mongodb_connection_string API_URL=https://s3.amazonaws.com/roxiler.com/product_transaction.json
+Set Up Environment Variables Create a .env file in the project folder with these variable:
+PORT=8080
+MONGO_URI=your_mongodb_connection_URL
 
-Start the Backend Start the backend server: npm start
+Start the Backend server: npm run index.js
 
 Start the Frontend Go to the client folder and start the frontend server: cd frontend npm run dev
 
-APIs in the Project Fetch Data:
 
-GET /initialize-database Initializes the database by fetching data from the third-party API.
-
-List Transactions:
-
-GET /transactions?month=March Shows a list of transactions for the selected month.
-
-Get Statistics:
-
-GET /statistics?month=March Provides total sales, sold items, and unsold items for a selected month.
-
-Bar Chart Data:
-
-GET /bar-chart?month=March Returns data for the price range of items.
-
-Pie Chart Data:
-
-GET /pie-chart?month=March Shows the number of items in each category.
