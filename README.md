@@ -1,7 +1,7 @@
 
 MERN Stack Roxiler Coding Challenge
 
-This project is a full stack MERN application that interacts with data from a third-party API. It includes features for listing transactions,displaying charts , and showing statistics using the data.
+This project is a full stack MERN application that interacts with data from a third-party API. It includes features for listing transactions,displaying charts , and showing statistics using the data .
 
 Features
 
