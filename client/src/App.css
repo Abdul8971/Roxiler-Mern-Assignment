@@ -1,0 +1,11 @@
+.mobile-warning {
+    text-align: center;
+    color: #ff0000;
+    background-color: #f8f9fa; 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif; /* Readable font */
+  }
+    

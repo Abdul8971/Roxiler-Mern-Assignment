@@ -11,9 +11,12 @@ function PieChartComponent({ month }) {
 
   useEffect(() => {
     const fetchPieChartData = async () => {
-      const response = await axios.get("http://localhost:5000/api/pie-chart", {
-        params: { month },
-      });
+      const response = await axios.get(
+        "http://localhost:8080/api/table/pie-chart",
+        {
+          params: { month },
+        }
+      );
       const receivedData = response.data;
       setDataReceive(receivedData);
 

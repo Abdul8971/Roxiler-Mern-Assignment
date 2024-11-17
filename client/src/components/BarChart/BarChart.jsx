@@ -15,9 +15,12 @@ const BarChartComponent = ({ month }) => {
 
   useEffect(() => {
     const fetchBarChartData = async () => {
-      const response = await axios.get("http://localhost:5000/api/bar-chart", {
-        params: { month },
-      });
+      const response = await axios.get(
+        "http://localhost:8080/api/table/bar-chart",
+        {
+          params: { month },
+        }
+      );
       setData(response.data);
     };
     fetchBarChartData();

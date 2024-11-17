@@ -32,9 +32,12 @@ function TransactionsTable() {
     const fetchTransactions = async () => {
       try {
         setLoading(true);
-        const response = await axios.get("http://localhost:5000/api/products", {
-          params: { month: selectedMonth },
-        });
+        const response = await axios.get(
+          "http://localhost:8080/api/table/products",
+          {
+            params: { month: selectedMonth },
+          }
+        );
         setTransactions(response.data.transactions);
         setLoading(false);
       } catch (error) {
